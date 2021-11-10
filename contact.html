@@ -4,13 +4,13 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Blogorama</title>
+        <title>Contact Blogorama</title>
         <link rel="stylesheet" href="css/styles.css"/>
     </head>
     <body>
         <div class="navbar">
             <ul class="topnav">
-                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="blog.html">History</a></li>
                 <li class="dropdown">
                     <a href="javascript:void(0)" class="dropbtn">Topics</a>
@@ -28,22 +28,50 @@
                     </div>
                   </li>
                 <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li class="active"><a href="contact.html">Contact</a></li>
             </ul>
         </div>
         <div class="header">
-            <h1>This is your brain...</h1>
-            <img src="images/egg.jpeg"/>
-            <h2>This is your brain on blogs...</h2>
-            <img src="images/fancyegg.jpeg"/>
-            <h3>Any questions...?</h3>
+
         </div>
         <div class="main">
-            <p>About this blog... Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus quod aliquid accusamus harum nobis tempore possimus, exercitationem velit laboriosam voluptate iste nemo officiis. Placeat at quaerat distinctio? Odio ad blanditiis odit architecto cum. Ullam enim dolores saepe sequi magnam esse provident consequuntur natus. Iusto, libero dolor vel alias fuga omnis totam at, suscipit ea culpa facilis dolorem nulla voluptatum numquam aut architecto quibusdam veniam. Voluptate esse, aliquid officiis reiciendis harum et nemo nesciunt nobis recusandae iure incidunt. Eligendi ab minus iusto. Animi eius facilis sequi suscipit nulla dolores aliquid sunt. Beatae quam eius dolore temporibus hic, amet ipsam unde accusamus.</p>
+            <h1>Contact Blogorama</h1>
+        <div class="form">
+            <form action="/action_page.php">
+            <div class="row">
+                <div class="col-25">
+                <label for="fname">First Name</label>
+                </div>
+                <div class="col-75">
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                <label for="lname">Last Name</label>
+                </div>
+                <div class="col-75">
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                <label for="subject">Subject</label>
+                </div>
+                <div class="col-75">
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <input type="submit" value="Submit">
+            </div>
+            </form>
+            </div>
+            </form>
         </div>
         <div class="footer">
-            <a href="blog.html">Enter Blogorama</a>
+
         </div>
-        <script src="js/script.js"></script>
     </body>
 </html>
